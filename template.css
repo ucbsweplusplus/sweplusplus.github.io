@@ -1,0 +1,102 @@
+
+.navBar
+{
+	font-family: 'Karla', sans-serif;
+
+}
+.navLink
+{
+	text-align:center;
+	position:relative;
+	margin-top:30px;
+	font-size:14px;
+	margin-left:-10px;
+	width:121px;
+	height: 35px;
+	line-height: 35px;
+	float:left;
+	color: black ;
+	font-family: 'Karla', sans-serif;
+}
+
+.navLink a
+{
+	text-decoration:none;
+	color:black;
+}
+body,h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Karla', sans-serif;
+}
+.div-bar,h1,button
+{
+	font-family: 'Karla', sans-serif;
+
+}
+.fa-anchor,.fa-coffee
+{
+	font-size:200px
+}
+p
+{
+	color:black;
+}
+
+
+
+.salmon-back,.hover-salmon-back:hover
+{
+	color:#000!important;background-color:#F59BB1!important
+}
+.grey-back,.hover-grey-back:hover
+{
+	color:#000!important;background-color:#f1f1f1!important
+}
+.babypink-back,.hover-babypink-back:hover
+{
+	color:#000!important;background-color:#F2D8E3!important
+}
+.teal-back,.hover-teal-back:hover
+{
+	color:#000!important;background-color:#9dd9d7!important
+}
+.lightforestgreen-back,.hover-lightforestgreen-back:hover
+{
+	color:#000!important;background-color:#17A896!important
+}
+.limegreen-back,.hover-limegreen-back:hover
+{
+	color:#000!important;background-color:#B6C670!important
+}
+.lightpurple-back,.hover-lightpurple-back:hover
+{
+	color:#000!important;background-color:#846FA5!important
+}
+.darkpink-back,.hover-darkpink-back:hover
+{
+	color:#000!important;background-color:#E47AA5!important
+}
+.lightgreen-back,.hover-lightgreen-back:hover
+{
+	color:#000!important;background-color:#99ebb7!important
+}
+.lavendar-back,.hover-lavendar-back:hover
+{
+	color:#000!important;background-color:#d1bbed!important
+}
+button
+{
+	color: white;
+  	background-color: black;
+  	border: none;
+  	/*: 15px 32px; */
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	/*padding-bottom: 10px; */
+
+}
+ .nav-item{
+    text-align: right;
+}
