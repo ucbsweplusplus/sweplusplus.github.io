@@ -12,67 +12,58 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-<style>
+	<style>
 
-	body{
-		font-family: 'Karla';
-	}
+		body, h1, h3 {
+			font-family: 'Karla';
+		}
 
-	h1{
-		font-family: 'Karla';
-		font-size: 75px
-	}
+	  .entry-content p {
+	    max-width: 70px;
+	    margin: 0 auto 30px;
+	  }
 
-  h5{
-		font-family: 'Karla';
-	}
-
-  .entry-content p {
-    max-width: 70px;
-    margin: 0 auto 30px;
-  }
-
-</style>
+	</style>
 
   <title> SWE ++ </title>
 
 
 </head>
 <body>
-	<!-- Navbar-->
-	<div id="navbar" style="padding-bottom: 40px">
-	 <nav class=" navbar navrbar-light navbar-wrapper navbar-fixed-top"style="background-color: #FFF">
-		 <div class="container noselect">
+	<!-- Navbar -->
+		<div id="navbar" style="padding-bottom: 40px">
+			<nav class=" navbar navrbar-light navbar-wrapper navbar-fixed-top"style="background-color: #FFF">
+				<div class="container noselect">
 
+					<div class="navbar-header">
+					 <a href="home.html" class="navbar-left"><img src="../swe++ website/images/swe++ bear.png" width="50" height="50" class="d-inline-block align-top" alt=""></a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section">
+						 <img src="../swe++ website/images/++.png"  width="40" height="20"></img>
+						</button>
+					</div>
 
-			 <div class="navbar-header">
-				 <a href="home.html" class="navbar-left"><img src="../swe++ website/images/swe++ bear.png" width="50" height="50" class="d-inline-block align-top" alt=""></a>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section">
-					 <img src="../swe++ website/images/++.png"  width="40" height="20"></img>
-				 	</button>
-			 </div>
+					<div class="navbar-collapse collapse in" id="navbar-collapse-section" aria-expanded="true" style="height:0px">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="home.html">Home</a></li>
+							<li class="active"><a href="team.html">Team</a></li>
+							<li><a href="classes.html">Classes</a></li>
+							<li><a href="codeday.html">Code Day</a></li>
+							<li><a href="chapters.html">Chapters</a></li>
+							<li><a href="corporate.html">Corporate</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-			 <div class="navbar-collapse collapse in" id="navbar-collapse-section" aria-expanded="true" style="height:0px">
-				 <ul class="nav navbar-nav navbar-right">
-					 <li><a href="home.html">Home</a></li>
-					 <li><a href="team.html">Team</a></li>
-					 <li><a href="classes.html">Classes</a></li>
-					 <li><a href="codeday.html">Code Day</a></li>
-					 <li class="active"><a href="chapters.html">Chapters</a></li>
-					 <li><a href="corporate.html">Corporate</a></li>
-					 <li><a href="contact.html">Contact Us</a></li>
-				 </ul>
-			 </div>
-		 </div>
-	 </nav>
-	 <!-- Banner -->
-		<div class="banner">
-		 	<img class="img-responsive "src="../swe++ website/images/chapters-banner.png">
+		 <!-- Banner -->
+			<div class="banner">
+				<img class="img-responsive "src="../swe++ website/images/chapters-banner.png">
+			</div>
+		 <!-- Banner -->
 		</div>
-	 <!-- Banner -->
 
-	</div>
-	<!-- Navbar-->
+	<!-- Navbar -->
 
 </body>
 
@@ -81,16 +72,18 @@
   <div id="about" name="about" class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
-        <h1 style="font-size:30px">About Chapters</h1>
+        <h1>About Chapters</h1>
 
         <p class="w3-text-grey">
 					We started SWE++ to provide the girls in our community a opportunity to explore something new, however our vision was much broader than just impacting our local community. SWE++ is about encouraging young women engineers and bridging the gender gap. In an attempt to widen our impact, we have expanded to 2 new SWE sections! This semester, we are currently working with San Jose State University and Santa Clara University to help develop similar programs in both schools.
 				</p>
       </div>
 
-      <div class="w3-third w3-center">
-        <img style="height: 225px; width:225px"src="../swe++ website/images/cal_logo.png"></i>
-      </div>
+			<div class="container">
+	      <div class="w3-third w3-center">
+	        <img style="height: 225px; width:225px; margin-left: 50px;" class= "img-responsive" src="../swe++ website/images/cal_logo.png"></i>
+	      </div>
+			</div>
     </div>
   </div>
 </div>
@@ -100,7 +93,7 @@
 <div id="about" name="about" class="w3-row-padding w3-padding-64 w3-container w3-light-grey">
 	<div class="w3-content">
 		<div class="w3-twothird">
-			<h1 style="font-size:20px">San Jose State University</h1>
+			<h3>San Jose State University</h3>
 
 			<p class="w3-text-grey">
 				SJSU has worked really hard this semester to get their program up and running. Much like our program, they will be teaching Scratch and Python for 9 weeks. Currently, there have 17 girls in their program along with 5 wonderful instructors that are excited to start their program which will run from February 23rd to April 20th. If you are interested, please contact Hibo Osman at hibo.osman@sjsu.edu.
@@ -108,7 +101,7 @@
 		</div>
 
 		<div class="w3-third w3-center">
-			<img style="height: 207px; width:169px" src="../swe++ website/images/sjsu_logo.png"></i>
+			<img style="height: 207px; width:169px; margin-left: 50px;" class= "img-responsive" src="../swe++ website/images/sjsu_logo.png"></i>
 		</div>
 	</div>
 </div>
@@ -119,7 +112,7 @@
   <div id="about" name="about" class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
-        <h1 style="font-size:20px">Santa Clara University</h1>
+        <h3>Santa Clara University</h3>
 
         <p class="w3-text-grey">
 					SCU is just getting started and is currently working through the logistics to have a SWE++ program setup for next semester. Currently, they have 10 instructors excited to get their program up and running. They are anticipating on starting by the end of March and will be opening applications shortly. If you are interested, please contact them at scu.swe.plus@gmail.com.
@@ -127,7 +120,7 @@
       </div>
 
       <div class="w3-third w3-center">
-        <img style="height: 225px; width:225px"src="../swe++ website/images/scu_logo.png"></i>
+        <img style="height: 225px; width:225px; margin-left: 50px;" class= "img-responsive" src="../swe++ website/images/scu_logo.png"></i>
       </div>
     </div>
   </div>
@@ -145,34 +138,37 @@
           <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg" alt="Hosted by the OCF" style="border: 0;" />
         </a>
       </div>
-      <div class="w3-half"
+
+      <div class="w3-half">
       <!-- Social buttons -->
-      <ul class="list-unstyled list-inline text-center" style="margin-top: 15px;">
-        <li class="list-inline-item">
-          <a class="">
-            <i class="fab fa-facebook-square"> </i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="http://instagram.com" class="btn-floating btn-tw ">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li class="list-inline-item43221">
-          <a href="contact.html"class="btn-floating btn-gplus ">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
-      </ul>
+	      <ul class="list-unstyled list-inline text-center" style="margin-top: 15px;">
+	        <li class="list-inline-item">
+	          <a href="http://facebook.com" class="">
+	            <i class="fab fa-facebook-square"> </i>
+	          </a>
+	        </li>
+
+	        <li class="list-inline-item">
+	          <a href="https://www.instagram.com/sweplusplus/" class="btn-floating btn-tw ">
+	            <i class="fab fa-instagram"></i>
+	          </a>
+	        </li>
+
+	        <li class="list-inline-item43221">
+	          <a href="contact.html" class="btn-floating btn-gplus ">
+	            <i class="fas fa-envelope"></i>
+	          </a>
+	        </li>
+	      </ul>
       <!-- Social buttons -->
 
     <!-- Copyright and Disclaimer-->
-    <div class="text-center">
-      <a href="https://swe.Berkeley.edu/"> UC Berkeley SWE </a>
-      <p style="font-size: 10px; margin-top: 5px;"> We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
-    </div>
+	    <div class="text-center">
+	      <a href="https://swe.Berkeley.edu/"> UC Berkeley SWE </a>
+	      <p style="font-size: 10px; margin-top: 5px;"> We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.</p>
+	    </div>
     <!-- Copyright  and Disclaimer-->
     </div>
   </div>
-  </footer>
+</footer>
 <!-- Footer -->
