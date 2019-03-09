@@ -87,7 +87,7 @@ p
 button
 {
 	color: white;
-  	background-color: black;
+  	background-color: pink;
   	border: none;
   	/*: 15px 32px; */
   	text-align: center;
@@ -99,4 +99,11 @@ button
 }
  .nav-item{
     text-align: right;
+}
+.card {
+	color: white;
+
+}
+footer{
+	color: white;
 }
