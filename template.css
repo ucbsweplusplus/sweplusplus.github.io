@@ -86,8 +86,8 @@ p
 }
 button
 {
-	color: white;
-  	background-color: pink;
+	color: black;
+  	background-color: black;
   	border: none;
   	/*: 15px 32px; */
   	text-align: center;
@@ -101,7 +101,7 @@ button
     text-align: right;
 }
 .card {
-	color: white;
+	color: black;
 
 }
 footer{

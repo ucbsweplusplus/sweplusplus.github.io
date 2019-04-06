@@ -26,7 +26,22 @@
 	  h5{
 			font-family: 'Karla';
 		}
+		
 
+		.column{
+		  float: left;
+		  width: 25%;
+		  padding: 5px;
+		}
+
+		/* Clear floats after image containers */
+		.row::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+			padding-bottom: 25px;
+		}
+	
 	  .entry-content p {
 	    max-width: 70px;
 	    margin: 0 auto 30px;
@@ -76,7 +91,9 @@
 		<div class="w3-content">
 			<div class="w3-twothird">
 				<h1>About Us</h1>
-					<p class="w3-text-grey">Blurb about classes </p>
+					<p class="w3-text-grey">
+						Piloted under the UC Berkeley chapter, this organization holds a ten-week programming course that encourages the development of a female computer science community and teaches students the foundations of Python. Currently our classes are held for <strong>middle school girls (6th to 8th grade) </strong>. 
+					 </p>
 			</div>
 
 			<div class="w3-third w3-center">
@@ -89,14 +106,49 @@
 	<div id="codeday" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
 		<div class="w3-content">
 			<div class="w3-center">
-				<h1>What We Do</h1>
-					<p class="w3-text-grey">Piloted under the UC Berkeley chapter, this organization holds a ten-week programming course that encourages the development of a female computer science community and teaches students the foundations of Python. </p>
-				<br>
 				<h1>How to Join</h1>
-					<p class="w3-text-grey">Currently our classes are held for <strong>middle school girls (6th to 8th grade)</strong>. Our applications for the Spring 2019 semester are currently closed. Check back early next fall to apply to be a part of out Fall 2019 cohort!</p>
+					<p class="w3-text-grey">Our applications for the Spring 2019 semester are currently closed. Check back early next fall to apply to be a part of out Fall 2019 cohort!</p>
 			</div>
 		</div>
 	</div>
+
+
+
+	<div class="container">
+		<div class="row">
+		  <div class="column">
+				<div style="font-size:100%; text-align:center;">
+		    	<img src="../swe++ website/images/maitri.jpg" class= 'img-responsive' width="300" height="300" style="margin:0px 12px; padding-bottom: 7px;" alt="maitri"/>
+					<strong>Maitri Shah</strong><br>
+					 Majors: Computer Science & Economics</div>
+		  </div>
+
+		  <div class="column">
+				<div style="font-size:100%; text-align:center;">
+		    	<img src="../swe++ website/images/bijal.jpg" class= 'img-responsive' width="300" height="300" style="margin:0px 12px; padding-bottom: 7px;" alt="bijal"/>
+					<strong>Bijal Patel</strong><br>
+					 Majors: Computer Science & Cal Teach</div>
+			</div>
+
+		  <div class="column">
+				<div style="font-size:100%; text-align:center;">
+		    	<img src="../swe++ website/images/alexia.jpg" class= 'img-responsive' width="300" height="300" style="margin:0px 12px; padding-bottom: 7px;" alt="alexia"/>
+					<strong>Alexia Camacho</strong><br>
+					 Major: EECS</div>
+		  </div>
+
+			<div class="column">
+				<div style="font-size:100%; text-align:center;">
+		    	<img src="../swe++ website/images/lily.jpg" class= 'img-responsive' width="300" height="300" style="margin:0px 12px; padding-bottom: 7px;" alt="lily"/>
+					<strong>Lily Fu</strong><br>
+					 Major: Political Science</div>
+		  </div>
+		</div>
+	</div>
+
+
+
+
 
 </body>
 
