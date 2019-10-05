@@ -37,6 +37,7 @@ body,h1,h2,h3,h4,h5,h6
 {
 	font-size:200px
 }
+
 p
 {
 	color:black;
@@ -84,6 +85,19 @@ p
 {
 	color:#000!important;background-color:#d1bbed!important
 }
+.purple-back,.hover-purple-back:hover
+{
+	color:#000!important;background-color:#A68ECC!important
+}
+.newteal-back,.hover-newteal-back:hover
+{
+	color:#000!important;background-color:#1FBFAA!important
+}
+.test-back,.hover-test-back:hover
+{
+	color:#000!important;background-color:#CADB7F!important
+}
+
 button
 {
 	color: black;
